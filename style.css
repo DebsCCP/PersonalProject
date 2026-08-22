@@ -1,0 +1,42 @@
+
+body {
+  display:inline;
+  justify-content:left;
+  align-items: left;
+  height: 100vh;
+  margin: 0;
+  background: rgb(36, 32, 32);
+  font-family: system-ui, -apple-system, sans-serif;
+}
+
+.card {
+  background: rgb(36, 112, 105);
+  padding: 1rem;
+  border-radius: 0px;
+  box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1);
+  text-align:right;
+}
+
+h1 {
+  color:rgb(0, 0, 0);
+  margin-bottom: 0.7rem;
+}
+
+p {
+  font-weight: bold;
+  color: #000000;
+}
+
+button {
+  background: rgb(5, 13, 12);
+  color: rgb(36, 112, 105);
+  border:none;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 1rem;
+}
+
+button:hover {
+  background:gray;
+}
